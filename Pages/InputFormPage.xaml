@@ -1,0 +1,47 @@
+<Page x:Class="WPFLateTimesheetsApp.InputFormPage"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WPFLateTimesheetsApp"
+        mc:Ignorable="d"
+        Title="InputForm" Height="450" Width="800">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height = "Auto" />
+            <RowDefinition Height="Auto" />
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="Auto"/>
+            <ColumnDefinition Width="Auto"/>
+            <ColumnDefinition Width="Auto"/>
+            <ColumnDefinition Width="*"/>
+        </Grid.ColumnDefinitions>
+        <Label Grid.Row="0" Grid.Column="0">Selected File: </Label>
+        <TextBox Text="Select a File" Name="SelectedFileTextBlock" MaxWidth="100" Margin="5 5 5 5" Grid.Row="0" Grid.Column="1" IsReadOnly="true" IsEnabled="False"></TextBox>
+        <Button Name="BrowseTimesheetFilesButton" Click="DisplayTimesheetSelectionWindow" Height="20" Width="50" Grid.Row="0" Grid.Column="2">Browse</Button>
+        <Label Grid.Row="1" Grid.Column="0">Location of Attachment File: </Label>
+        <TextBox Text="Select a File" Name="AttachmentFileTextBlock" MaxWidth="100" Margin="5 5 5 5" Grid.Row="1" Grid.Column="1" IsReadOnly="true" IsEnabled="False"></TextBox>
+        <Button Name="BrowseAttachmentFilesButton" Click="DisplayAttachmentSelectionWindow" Height="20" Width="50" Grid.Row="1" Grid.Column="2">Browse</Button>
+        <Label Grid.Row="2" Grid.Column="0">Date and Time of Report Creation:</Label>
+        <TextBox Name="ReportCreationTimeTextBox" Grid.Row="2" Grid.Column="1"></TextBox>
+        <Label Grid.Row="3" Grid.Column="0">Date to Send Individual Emails:</Label>
+        <DatePicker Name="DateToSendIndividualEmails" Grid.Row="3" Grid.Column="1" SelectedDateChanged="EnsureDatesAreValid"></DatePicker>
+        <Label Grid.Row="3" Name="IndividualEmailDateProblem" Grid.Column="2" Grid.ColumnSpan="2" Visibility="Collapsed" Foreground="#A71D00">Value must be selected</Label>
+        <Label Grid.Row="4" Grid.Column="0">Date to Send Mass Email:</Label>
+        <DatePicker Name="DateToSendMassEmail" Grid.Row="4" Grid.Column="1" SelectedDateChanged="EnsureDatesAreValid"></DatePicker>
+        <Label Grid.Row="4" Name="MassEmailDateProblem" Grid.Column="2" Grid.ColumnSpan="2" Visibility="Collapsed" Foreground="#A71D00">This date must be after the individual email date</Label>
+        <Label Grid.Row="5" Grid.Column="0">Location to Save Teams Messages: </Label>
+        <TextBox Text="Select a File" Name="TeamsMessagesFileNameTextBlock" MaxWidth="100" Margin="5 5 5 5" Grid.Row="5" Grid.Column="1" IsReadOnly="true" IsEnabled="False"></TextBox>
+        <Button Name="ChooseTeamsMessagesSaveLocationButton" Click="DisplayTeamsMessagesSaveSelectionWindow" Height="20" Width="50" Grid.Row="5" Grid.Column="2">Browse</Button>
+        <Label Grid.Row="6" Grid.Column="0">Name of Email Sender:</Label>
+        <TextBox Name="EmailSenderTextBox" Grid.Row="6" Grid.Column="1"></TextBox>
+        <Button Name="SendEmails" Margin="0 10 0 20" Grid.Row="7" Grid.Column="1" Click="SendEmailsAndAlertUser">Send Emails</Button>
+    </Grid>
+</Page>

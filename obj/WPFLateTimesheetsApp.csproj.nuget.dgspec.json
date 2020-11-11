@@ -1,0 +1,58 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\nmuenche\\OneDrive - Capgemini\\Documents\\Practice Programs\\WPFLateTimesheetsApp\\WPFLateTimesheetsApp.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\nmuenche\\OneDrive - Capgemini\\Documents\\Practice Programs\\WPFLateTimesheetsApp\\WPFLateTimesheetsApp.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\nmuenche\\OneDrive - Capgemini\\Documents\\Practice Programs\\WPFLateTimesheetsApp\\WPFLateTimesheetsApp.csproj",
+        "projectName": "WPFLateTimesheetsApp",
+        "projectPath": "C:\\Users\\nmuenche\\OneDrive - Capgemini\\Documents\\Practice Programs\\WPFLateTimesheetsApp\\WPFLateTimesheetsApp.csproj",
+        "packagesPath": "C:\\Users\\nmuenche\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\nmuenche\\OneDrive - Capgemini\\Documents\\Practice Programs\\WPFLateTimesheetsApp\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\nmuenche\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net48"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net48": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net48": {
+          "dependencies": {
+            "Microsoft.Office.Interop.Excel": {
+              "target": "Package",
+              "version": "[15.0.4795.1000, )"
+            },
+            "Microsoft.Office.Interop.Outlook": {
+              "target": "Package",
+              "version": "[15.0.4797.1003, )"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.401\\RuntimeIdentifierGraph.json"
+        }
+      },
+      "runtimes": {
+        "win7-x86": {
+          "#import": []
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "D2QFx5ycaGMANWqb0c6xajmQY7NyADtaFbdXn7tsdtWisTxSmLnYnPqq4FnLoSHRHrP0KZhRnZu8gxgv3CP7pg==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\nmuenche\\OneDrive - Capgemini\\Documents\\Practice Programs\\WPFLateTimesheetsApp\\WPFLateTimesheetsApp.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\nmuenche\\.nuget\\packages\\microsoft.office.interop.excel\\15.0.4795.1000\\microsoft.office.interop.excel.15.0.4795.1000.nupkg.sha512",
+    "C:\\Users\\nmuenche\\.nuget\\packages\\microsoft.office.interop.outlook\\15.0.4797.1003\\microsoft.office.interop.outlook.15.0.4797.1003.nupkg.sha512"
+  ],
+  "logs": []
+}
