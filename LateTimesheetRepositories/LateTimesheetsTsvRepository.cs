@@ -36,8 +36,6 @@ namespace WPFLateTimesheetsApp.LateTimesheetsRepositories
                         currentTimesheet.EmployeeEmail = lineColumns[6];
                         currentTimesheet.PeopleManager = lineColumns[7];
                         currentTimesheet.PeopleManagerEmail = lineColumns[8];
-                        currentTimesheet.CurrentMarketUnit = lineColumns[9];
-                        currentTimesheet.Account = lineColumns[10];
                         lateTimesheets.Add(currentTimesheet);
                     }
                 }
