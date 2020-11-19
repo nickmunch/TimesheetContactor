@@ -23,3 +23,5 @@ C:\Users\nmuenche\OneDrive - Capgemini\Documents\Practice Programs\WPFLateTimesh
 C:\Users\nmuenche\OneDrive - Capgemini\Documents\Practice Programs\WPFLateTimesheetsApp\obj\Debug\net48\WPFLateTimesheetsApp_Content.g.cs
 C:\Users\nmuenche\OneDrive - Capgemini\Documents\Practice Programs\WPFLateTimesheetsApp\bin\Debug\net48\emailOpening.html
 C:\Users\nmuenche\OneDrive - Capgemini\Documents\Practice Programs\WPFLateTimesheetsApp\bin\Debug\net48\emailClosing.html
+C:\Users\nmuenche\OneDrive - Capgemini\Documents\Practice Programs\WPFLateTimesheetsApp\bin\Debug\net48\Timesheet Contactor.docx
+C:\Users\nmuenche\OneDrive - Capgemini\Documents\Practice Programs\WPFLateTimesheetsApp\bin\Debug\net48\GTE Helpful Hint.pdf

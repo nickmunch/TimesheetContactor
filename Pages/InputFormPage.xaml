@@ -26,7 +26,7 @@
         <Label Grid.Row="0" Grid.Column="0">Selected File: </Label>
         <TextBox Text="Select a File" Name="SelectedFileTextBlock" MaxWidth="100" Margin="5 5 5 5" Grid.Row="0" Grid.Column="1" IsReadOnly="true" IsEnabled="False"></TextBox>
         <Button Name="BrowseTimesheetFilesButton" Click="DisplayTimesheetSelectionWindow" Height="20" Width="50" Grid.Row="0" Grid.Column="2">Browse</Button>
-        <Label Grid.Row="1" Grid.Column="0">Location of Attachment File: </Label>
+        <Label Grid.Row="1" Grid.Column="0">Location of the "GTE Helpful Hint.pdf" file: </Label>
         <TextBox Text="Select a File" Name="AttachmentFileTextBlock" MaxWidth="100" Margin="5 5 5 5" Grid.Row="1" Grid.Column="1" IsReadOnly="true" IsEnabled="False"></TextBox>
         <Button Name="BrowseAttachmentFilesButton" Click="DisplayAttachmentSelectionWindow" Height="20" Width="50" Grid.Row="1" Grid.Column="2">Browse</Button>
         <Label Grid.Row="2" Grid.Column="0">Date and Time of Report Creation:</Label>
