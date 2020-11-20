@@ -23,3 +23,5 @@ C:\Users\nmuenche\OneDrive - Capgemini\Documents\Practice Programs\WPFLateTimesh
 C:\Users\nmuenche\OneDrive - Capgemini\Documents\Practice Programs\WPFLateTimesheetsApp\obj\Release\net48\WPFLateTimesheetsApp.csproj.CopyComplete
 C:\Users\nmuenche\OneDrive - Capgemini\Documents\Practice Programs\WPFLateTimesheetsApp\obj\Release\net48\WPFLateTimesheetsApp.exe
 C:\Users\nmuenche\OneDrive - Capgemini\Documents\Practice Programs\WPFLateTimesheetsApp\obj\Release\net48\WPFLateTimesheetsApp.pdb
+C:\Users\nmuenche\OneDrive - Capgemini\Documents\Practice Programs\WPFLateTimesheetsApp\bin\Release\net48\Timesheet Contactor.docx
+C:\Users\nmuenche\OneDrive - Capgemini\Documents\Practice Programs\WPFLateTimesheetsApp\bin\Release\net48\GTE Helpful Hint.pdf

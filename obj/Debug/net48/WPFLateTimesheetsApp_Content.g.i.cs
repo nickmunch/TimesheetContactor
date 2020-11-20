@@ -10,5 +10,7 @@
 
 [assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("emailopening.html")]
 [assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("emailclosing.html")]
+[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("timesheet%20contactor.docx")]
+[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("gte%20helpful%20hint.pdf")]
 
 
