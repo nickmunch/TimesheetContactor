@@ -1,20 +1,20 @@
 ﻿WPFLateTimesheetsApp
-1.0.0.0
+
 
 winexe
 C#
 .cs
-c:\Users\nmuenche\OneDrive - Capgemini\Documents\Practice Programs\WPFLateTimesheetsApp\obj\Debug\net48\
+C:\Users\nmuenche\OneDrive - Capgemini\Documents\Practice Programs\WPFLateTimesheetsApp\obj\Debug\net48\
 WPFLateTimesheetsApp
 none
 false
 TRACE;DEBUG;NETFRAMEWORK;NET48;
-c:\Users\nmuenche\OneDrive - Capgemini\Documents\Practice Programs\WPFLateTimesheetsApp\App.xaml
-3-110623204
-41669034271
-14-1922298387
-21645396089
+C:\Users\nmuenche\OneDrive - Capgemini\Documents\Practice Programs\WPFLateTimesheetsApp\App.xaml
+3928426282
+4-1939749797
+12-1202996373
+211188975745
 MainWindow.xaml;Pages\EmailsSentPage.xaml;Pages\InputFormPage.xaml;
 
-True
+False
 

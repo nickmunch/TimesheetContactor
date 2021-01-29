@@ -135,11 +135,11 @@ namespace WPFLateTimesheetsApp
                     string title = "Success";
                     MessageBox.Show(message, title);
                 }
-                catch
-                {
+                catch(Exception ex)
+                {   
                     string message = "Something went wrong. Please check your Outlook sent emails to see if any emails were sent before retrying to avoid repeat emails.";
                     string title = "Error";
-                    MessageBox.Show(message, title);
+                    MessageBox.Show(ex.Message, title);
                 }
                 App.ParentWindowRef.Close();
             }

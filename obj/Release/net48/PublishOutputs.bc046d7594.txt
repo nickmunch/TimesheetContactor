@@ -1,0 +1,9 @@
+C:\Users\nmuenche\OneDrive - Capgemini\Documents\Practice Programs\WPFLateTimesheetsApp\bin\release\net48\publish\emailOpening.html
+C:\Users\nmuenche\OneDrive - Capgemini\Documents\Practice Programs\WPFLateTimesheetsApp\bin\release\net48\publish\emailClosing.html
+C:\Users\nmuenche\OneDrive - Capgemini\Documents\Practice Programs\WPFLateTimesheetsApp\bin\release\net48\publish\Timesheet Contactor.docx
+C:\Users\nmuenche\OneDrive - Capgemini\Documents\Practice Programs\WPFLateTimesheetsApp\bin\release\net48\publish\GTE Helpful Hint.pdf
+C:\Users\nmuenche\OneDrive - Capgemini\Documents\Practice Programs\WPFLateTimesheetsApp\bin\release\net48\publish\WPFLateTimesheetsApp.exe
+C:\Users\nmuenche\OneDrive - Capgemini\Documents\Practice Programs\WPFLateTimesheetsApp\bin\release\net48\publish\WPFLateTimesheetsApp.exe.config
+C:\Users\nmuenche\OneDrive - Capgemini\Documents\Practice Programs\WPFLateTimesheetsApp\bin\release\net48\publish\WPFLateTimesheetsApp.pdb
+C:\Users\nmuenche\OneDrive - Capgemini\Documents\Practice Programs\WPFLateTimesheetsApp\bin\release\net48\publish\Microsoft.Office.Interop.Excel.dll
+C:\Users\nmuenche\OneDrive - Capgemini\Documents\Practice Programs\WPFLateTimesheetsApp\bin\release\net48\publish\Microsoft.Office.Interop.Outlook.dll
