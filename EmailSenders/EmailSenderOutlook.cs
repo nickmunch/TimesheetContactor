@@ -21,7 +21,7 @@ namespace WPFLateTimesheetsApp.EmailSenders
             Outlook.MailItem timesheetEmail = (Outlook.MailItem)app.CreateItem(Outlook.OlItemType.olMailItem);
             timesheetEmail.To = lateEmployeeEmail;
             Console.WriteLine(lateEmployeeEmail + " " + peopleManagerEmail);
-            if(!string.IsNullOrWhiteSpace(peopleManagerEmail) && !Int32.TryParse(peopleManagerEmail, out int result))
+            if(!string.IsNullOrWhiteSpace(peopleManagerEmail) && peopleManagerEmail != "#N/A" && !Int32.TryParse(peopleManagerEmail, out int result))
             {
                 timesheetEmail.BCC = peopleManagerEmail;
             }
